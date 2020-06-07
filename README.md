@@ -1,6 +1,10 @@
 # cloud-platform-terraform-awsaccounts-iam
 
-Terraform module which holds Cloud Platform team IAM configuration for AWS Accounts.
+Terraform module which holds Cloud Platform team IAM configuration for AWS Accounts. This module configure:
+
+- Account password policies
+- Administrator groups
+- User accounts
 
 ## Usage
 
