@@ -25,6 +25,7 @@ module "iam_group_admins_with_policies" {
     module.iam_user_jasonbirchall.this_iam_user_name,
     module.iam_user_vijayveeranki.this_iam_user_name,
     module.iam_user_stevemarshall.this_iam_user_name,
+    module.iam_user_davidread.this_iam_user_name,
   ]
 
   custom_group_policy_arns = [
@@ -126,6 +127,16 @@ module "iam_user_stevemarshall" {
   version = "~> 2.0"
 
   name                          = "SteveMarshall"
+  force_destroy                 = true
+  create_iam_user_login_profile = false
+  create_iam_access_key         = false
+}
+
+module "iam_user_davidread" {
+  source  = "terraform-aws-modules/iam/aws//modules/iam-user"
+  version = "~> 2.0"
+
+  name                          = "DavidRead"
   force_destroy                 = true
   create_iam_user_login_profile = false
   create_iam_access_key         = false
