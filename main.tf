@@ -16,6 +16,7 @@ module "iam_group_admins_with_policies" {
 
   group_users = [
     module.iam_user_alejandro_garrido.this_iam_user_name,
+    module.iam_user_vijay_veeranki.this_iam_user_name,
     module.iam_user_poornimakrishnasamy.this_iam_user_name,
     module.iam_user_paulwyborn.this_iam_user_name,
     module.iam_user_kops.this_iam_user_name,
