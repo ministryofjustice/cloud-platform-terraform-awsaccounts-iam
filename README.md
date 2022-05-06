@@ -14,16 +14,8 @@ module "iam" {
 
   aws_account_name       = "cloud-platform-ephemeral-test"
 }
-
 ```
-## Inputs
 
-_Describe what to pass the module_
-_example_:
+<!--- BEGIN_TF_DOCS --->
 
-| Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| aws_account_name | The AWS Account's name | string |  | yes |
-
-
-## Outputs
+<!--- END_TF_DOCS --->
