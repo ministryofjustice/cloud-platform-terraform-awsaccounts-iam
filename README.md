@@ -14,16 +14,45 @@ module "iam" {
 
   aws_account_name       = "cloud-platform-ephemeral-test"
 }
-
 ```
+
+<!--- BEGIN_TF_DOCS --->
+## Requirements
+
+No requirements.
+
+## Providers
+
+No provider.
+
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| iam_account | terraform-aws-modules/iam/aws//modules/iam-account | ~> 3.0 |
+| iam_group_admins_with_policies | terraform-aws-modules/iam/aws//modules/iam-group-with-policies | ~> 3.0 |
+| iam_user_jackstockley | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_jasonbirchall | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_kops | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_paulwyborn | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_poornimakrishnasamy | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_razvancosma | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_sablumiah | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_stevemarshall | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_vijay_veeranki | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+
+## Resources
+
+No resources.
+
 ## Inputs
 
-_Describe what to pass the module_
-_example_:
-
 | Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| aws_account_name | The AWS Account's name | string |  | yes |
-
+|------|-------------|------|---------|:--------:|
+| aws\_account\_name | n/a | `string` | n/a | yes |
 
 ## Outputs
+
+No output.
+
+<!--- END_TF_DOCS --->
