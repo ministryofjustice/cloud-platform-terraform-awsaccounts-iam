@@ -124,7 +124,7 @@ module "iam_user_stevewilliams" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
   version = "~> 3.0"
 
-  name                          = "JackStockley"
+  name                          = "SteveWilliams"
   force_destroy                 = true
   create_iam_user_login_profile = false
   create_iam_access_key         = false
