@@ -39,6 +39,7 @@ No provider.
 | iam_user_razvancosma | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | iam_user_sablumiah | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | iam_user_stevemarshall | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_stevewilliams | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | iam_user_vijay_veeranki | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 
 ## Resources
