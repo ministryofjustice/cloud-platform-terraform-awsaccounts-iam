@@ -19,7 +19,9 @@ module "iam" {
 <!--- BEGIN_TF_DOCS --->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| terraform | >0.13 |
 
 ## Providers
 
