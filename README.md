@@ -32,6 +32,7 @@ No provider.
 | iam_account | terraform-aws-modules/iam/aws//modules/iam-account | ~> 3.0 |
 | iam_group_admins_with_policies | terraform-aws-modules/iam/aws//modules/iam-group-with-policies | ~> 3.0 |
 | iam_user_jackstockley | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
+| iam_user_jakemulley | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | iam_user_jasonbirchall | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | iam_user_kops | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | iam_user_paulwyborn | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
