@@ -1,6 +1,6 @@
 module "iam_account" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-account"
-  version = "~> 3.0"
+  version = "~> 5.2"
 
   account_alias = var.aws_account_name
 
