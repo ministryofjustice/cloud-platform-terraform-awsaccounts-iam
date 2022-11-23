@@ -39,7 +39,6 @@ No providers.
 | <a name="module_iam_user_kops"></a> [iam\_user\_kops](#module\_iam\_user\_kops) | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | <a name="module_iam_user_paulwyborn"></a> [iam\_user\_paulwyborn](#module\_iam\_user\_paulwyborn) | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | <a name="module_iam_user_poornimakrishnasamy"></a> [iam\_user\_poornimakrishnasamy](#module\_iam\_user\_poornimakrishnasamy) | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
-| <a name="module_iam_user_razvancosma"></a> [iam\_user\_razvancosma](#module\_iam\_user\_razvancosma) | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | <a name="module_iam_user_sablumiah"></a> [iam\_user\_sablumiah](#module\_iam\_user\_sablumiah) | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | <a name="module_iam_user_stevemarshall"></a> [iam\_user\_stevemarshall](#module\_iam\_user\_stevemarshall) | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
 | <a name="module_iam_user_stevewilliams"></a> [iam\_user\_stevewilliams](#module\_iam\_user\_stevewilliams) | terraform-aws-modules/iam/aws//modules/iam-user | ~> 3.0 |
