@@ -1,5 +1,5 @@
 module "iam" {
   source = "../../"
 
-  aws_account_name       = "test-account"
+  aws_account_name = "test-account"
 }
