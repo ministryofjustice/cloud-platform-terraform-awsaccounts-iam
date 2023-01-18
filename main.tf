@@ -20,7 +20,6 @@ module "iam_group_admins_with_policies" {
     module.iam_user_paulwyborn.iam_user_name,
     module.iam_user_sablumiah.iam_user_name,
     module.iam_user_jasonbirchall.iam_user_name,
-    module.iam_user_stevemarshall.iam_user_name,
     module.iam_user_jackstockley.iam_user_name,
     module.iam_user_stevewilliams.iam_user_name,
     module.iam_user_jakemulley.iam_user_name
@@ -75,16 +74,6 @@ module "iam_user_jasonbirchall" {
   version = "4.17.1"
 
   name                          = "jasonBirchall"
-  force_destroy                 = true
-  create_iam_user_login_profile = false
-  create_iam_access_key         = false
-}
-
-module "iam_user_stevemarshall" {
-  source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
-
-  name                          = "SteveMarshall"
   force_destroy                 = true
   create_iam_user_login_profile = false
   create_iam_access_key         = false
