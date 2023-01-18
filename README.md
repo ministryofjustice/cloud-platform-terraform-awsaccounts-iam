@@ -36,7 +36,6 @@ No providers.
 | <a name="module_iam_user_jackstockley"></a> [iam\_user\_jackstockley](#module\_iam\_user\_jackstockley) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_jakemulley"></a> [iam\_user\_jakemulley](#module\_iam\_user\_jakemulley) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_jasonbirchall"></a> [iam\_user\_jasonbirchall](#module\_iam\_user\_jasonbirchall) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
-| <a name="module_iam_user_kops"></a> [iam\_user\_kops](#module\_iam\_user\_kops) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_paulwyborn"></a> [iam\_user\_paulwyborn](#module\_iam\_user\_paulwyborn) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_poornimakrishnasamy"></a> [iam\_user\_poornimakrishnasamy](#module\_iam\_user\_poornimakrishnasamy) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_sablumiah"></a> [iam\_user\_sablumiah](#module\_iam\_user\_sablumiah) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
