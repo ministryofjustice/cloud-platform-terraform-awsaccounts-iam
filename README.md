@@ -40,7 +40,6 @@ No providers.
 | <a name="module_iam_user_paulwyborn"></a> [iam\_user\_paulwyborn](#module\_iam\_user\_paulwyborn) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_poornimakrishnasamy"></a> [iam\_user\_poornimakrishnasamy](#module\_iam\_user\_poornimakrishnasamy) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_sablumiah"></a> [iam\_user\_sablumiah](#module\_iam\_user\_sablumiah) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
-| <a name="module_iam_user_stevemarshall"></a> [iam\_user\_stevemarshall](#module\_iam\_user\_stevemarshall) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_stevewilliams"></a> [iam\_user\_stevewilliams](#module\_iam\_user\_stevewilliams) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_vijay_veeranki"></a> [iam\_user\_vijay\_veeranki](#module\_iam\_user\_vijay\_veeranki) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 
