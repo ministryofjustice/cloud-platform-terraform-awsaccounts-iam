@@ -35,6 +35,7 @@ No providers.
 | <a name="module_iam_group_admins_with_policies"></a> [iam\_group\_admins\_with\_policies](#module\_iam\_group\_admins\_with\_policies) | terraform-aws-modules/iam/aws//modules/iam-group-with-policies | ~> 4.24 |
 | <a name="module_iam_user_jackstockley"></a> [iam\_user\_jackstockley](#module\_iam\_user\_jackstockley) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_jakemulley"></a> [iam\_user\_jakemulley](#module\_iam\_user\_jakemulley) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
+| <a name="module_iam_user_jaskaransarkaria"></a> [iam\_user\_jaskaransarkaria](#module\_iam\_user\_jaskaransarkaria) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_jasonbirchall"></a> [iam\_user\_jasonbirchall](#module\_iam\_user\_jasonbirchall) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_paulwyborn"></a> [iam\_user\_paulwyborn](#module\_iam\_user\_paulwyborn) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_poornimakrishnasamy"></a> [iam\_user\_poornimakrishnasamy](#module\_iam\_user\_poornimakrishnasamy) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
