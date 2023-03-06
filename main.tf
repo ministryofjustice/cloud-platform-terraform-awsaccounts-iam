@@ -118,3 +118,13 @@ module "iam_user_jaskaransarkaria" {
   create_iam_user_login_profile = false
   create_iam_access_key         = false
 }
+
+module "iam_user_tomsmith" {
+  source = "terraform-aws-modules/iam/aws//modules/iam-user"
+  version = "4.17.1"
+
+  name                          = "TomSmith"
+  force_destroy                 = true
+  create_iam_user_login_profile = false
+  create_iam_access_key         = false
+}
