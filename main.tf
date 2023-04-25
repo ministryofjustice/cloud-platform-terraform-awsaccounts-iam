@@ -119,3 +119,29 @@ module "iam_user_tomsmith" {
   create_iam_user_login_profile = false
   create_iam_access_key         = false
 }
+
+############################
+# OpenID Connect providers #
+############################
+locals {
+  oidc_providers = {
+    github = {
+      url = "https://token.actions.githubusercontent.com",
+      aud = ["sts.amazonaws.com"]
+    }
+  }
+}
+
+data "tls_certificate" "oidc" {
+  for_each = toset(keys(local.oidc_providers))
+
+  url = "${local.oidc_providers[each.key].url}/.well-known/openid-configuration"
+}
+
+resource "aws_iam_openid_connect_provider" "oidc" {
+  for_each = toset(keys(local.oidc_providers))
+
+  url             = local.oidc_providers[each.key].url
+  client_id_list  = local.oidc_providers[each.key].aud
+  thumbprint_list = data.tls_certificate.oidc[each.key].certificates[*].sha1_fingerprint
+}
