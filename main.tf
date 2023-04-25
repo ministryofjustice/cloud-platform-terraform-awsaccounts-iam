@@ -7,7 +7,7 @@ module "iam_account" {
   minimum_password_length = 12
 }
 
-# CP Team
+# Cloud Platform team members
 module "iam_group_admins_with_policies" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-group-with-policies"
   version = "~> 4.24"
@@ -15,16 +15,15 @@ module "iam_group_admins_with_policies" {
   name = "admins"
 
   group_users = [
-    module.iam_user_vijay_veeranki.iam_user_name,
-    module.iam_user_poornimakrishnasamy.iam_user_name,
-    module.iam_user_paulwyborn.iam_user_name,
-    module.iam_user_sablumiah.iam_user_name,
-    module.iam_user_jasonbirchall.iam_user_name,
     module.iam_user_jackstockley.iam_user_name,
-    module.iam_user_stevewilliams.iam_user_name,
     module.iam_user_jakemulley.iam_user_name,
     module.iam_user_jaskaransarkaria.iam_user_name,
-    module.iam_user_tomsmith.iam_user_name
+    module.iam_user_paulwyborn.iam_user_name,
+    module.iam_user_poornimakrishnasamy.iam_user_name,
+    module.iam_user_sablumiah.iam_user_name,
+    module.iam_user_stevewilliams.iam_user_name,
+    module.iam_user_tomsmith.iam_user_name,
+    module.iam_user_vijay_veeranki.iam_user_name,
   ]
 
   custom_group_policy_arns = [
@@ -71,16 +70,6 @@ module "iam_user_sablumiah" {
   create_iam_access_key         = false
 }
 
-module "iam_user_jasonbirchall" {
-  source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
-
-  name                          = "jasonBirchall"
-  force_destroy                 = true
-  create_iam_user_login_profile = false
-  create_iam_access_key         = false
-}
-
 module "iam_user_jackstockley" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
   version = "4.17.1"
@@ -110,6 +99,7 @@ module "iam_user_jakemulley" {
   create_iam_user_login_profile = false
   create_iam_access_key         = false
 }
+
 module "iam_user_jaskaransarkaria" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
   version = "4.17.1"
@@ -121,7 +111,7 @@ module "iam_user_jaskaransarkaria" {
 }
 
 module "iam_user_tomsmith" {
-  source = "terraform-aws-modules/iam/aws//modules/iam-user"
+  source  = "terraform-aws-modules/iam/aws//modules/iam-user"
   version = "4.17.1"
 
   name                          = "TomSmith"
