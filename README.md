@@ -1,10 +1,11 @@
 # cloud-platform-terraform-awsaccounts-iam
 
-Terraform module which holds Cloud Platform team IAM configuration for AWS Accounts. This module configure:
+Terraform module which holds Cloud Platform team IAM configuration for AWS Accounts. This module configures:
 
 - Account password policies
 - Administrator groups
-- User accounts
+- Team member IAM user accounts
+- OIDC providers for general usage (e.g. CircleCI, GitHub Actions)
 
 ## Usage
 
@@ -12,7 +13,7 @@ Terraform module which holds Cloud Platform team IAM configuration for AWS Accou
 module "iam" {
   source = "github.com/ministryofjustice/cloud-platform-terraform-awsaccounts-iam?ref=0.0.1"
 
-  aws_account_name       = "cloud-platform-ephemeral-test"
+  aws_account_name = "cloud-platform-ephemeral-test"
 }
 ```
 
@@ -36,7 +37,6 @@ No providers.
 | <a name="module_iam_user_jackstockley"></a> [iam\_user\_jackstockley](#module\_iam\_user\_jackstockley) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_jakemulley"></a> [iam\_user\_jakemulley](#module\_iam\_user\_jakemulley) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_jaskaransarkaria"></a> [iam\_user\_jaskaransarkaria](#module\_iam\_user\_jaskaransarkaria) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
-| <a name="module_iam_user_jasonbirchall"></a> [iam\_user\_jasonbirchall](#module\_iam\_user\_jasonbirchall) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_paulwyborn"></a> [iam\_user\_paulwyborn](#module\_iam\_user\_paulwyborn) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_poornimakrishnasamy"></a> [iam\_user\_poornimakrishnasamy](#module\_iam\_user\_poornimakrishnasamy) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_sablumiah"></a> [iam\_user\_sablumiah](#module\_iam\_user\_sablumiah) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
