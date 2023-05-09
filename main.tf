@@ -22,23 +22,12 @@ module "iam_group_admins_with_policies" {
     module.iam_user_poornimakrishnasamy.iam_user_name,
     module.iam_user_sablumiah.iam_user_name,
     module.iam_user_stevewilliams.iam_user_name,
-    module.iam_user_tomsmith.iam_user_name,
-    module.iam_user_vijay_veeranki.iam_user_name,
+    module.iam_user_tomsmith.iam_user_name
   ]
 
   custom_group_policy_arns = [
     "arn:aws:iam::aws:policy/AdministratorAccess",
   ]
-}
-
-module "iam_user_vijay_veeranki" {
-  source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
-
-  name                          = "VijayVeeranki"
-  force_destroy                 = true
-  create_iam_user_login_profile = false
-  create_iam_access_key         = false
 }
 
 module "iam_user_poornimakrishnasamy" {
@@ -50,6 +39,7 @@ module "iam_user_poornimakrishnasamy" {
   create_iam_user_login_profile = false
   create_iam_access_key         = false
 }
+
 module "iam_user_paulwyborn" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
   version = "4.17.1"
