@@ -53,6 +53,8 @@ module "iam" {
 | Name | Type |
 |------|------|
 | [aws_iam_openid_connect_provider.oidc](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_openid_connect_provider) | resource |
+| [aws_secretsmanager_secret.circleci](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/secretsmanager_secret) | data source |
+| [aws_secretsmanager_secret_version.circleci](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/secretsmanager_secret_version) | data source |
 | [tls_certificate.oidc](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/data-sources/certificate) | data source |
 
 ## Inputs
@@ -60,7 +62,7 @@ module "iam" {
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_aws_account_name"></a> [aws\_account\_name](#input\_aws\_account\_name) | n/a | `string` | n/a | yes |
-| <a name="input_circleci_organisation_id"></a> [circleci\_organisation\_id](#input\_circleci\_organisation\_id) | CircleCI organisation ID for OIDC | `string` | n/a | yes |
+| <a name="input_circleci_secret_arn"></a> [circleci\_secret\_arn](#input\_circleci\_secret\_arn) | ARN for CircleCI secrets from Secrets Manager | `string` | n/a | yes |
 
 ## Outputs
 
