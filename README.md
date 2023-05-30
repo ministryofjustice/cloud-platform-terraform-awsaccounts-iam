@@ -60,6 +60,7 @@ module "iam" {
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_aws_account_name"></a> [aws\_account\_name](#input\_aws\_account\_name) | n/a | `string` | n/a | yes |
+| <a name="input_circleci_organisation_id"></a> [circleci\_organisation\_id](#input\_circleci\_organisation\_id) | CircleCI organisation ID for OIDC | `string` | n/a | yes |
 
 ## Outputs
 

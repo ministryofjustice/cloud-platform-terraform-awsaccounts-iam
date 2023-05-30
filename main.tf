@@ -115,9 +115,15 @@ module "iam_user_tomsmith" {
 ############################
 locals {
   oidc_providers = {
+    # See https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services#adding-the-identity-provider-to-aws
     github = {
       url = "https://token.actions.githubusercontent.com",
       aud = ["sts.amazonaws.com"]
+    }
+    # See https://circleci.com/docs/openid-connect-tokens/#format-of-the-openid-connect-id-token
+    circleci = {
+      url = "https://oidc.circleci.com/org/${var.circleci_organisation_id}"
+      aud = [var.circleci_organisation_id]
     }
   }
 }
