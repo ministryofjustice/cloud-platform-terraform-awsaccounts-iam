@@ -2,8 +2,7 @@ variable "aws_account_name" {
   type = string
 }
 
-variable "circleci_organisation_id" {
+variable "circleci_secret_arn" {
   type        = string
-  description = "CircleCI organisation ID for OIDC"
-  sensitive   = true
+  description = "ARN for CircleCI secrets from Secrets Manager"
 }

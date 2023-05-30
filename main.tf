@@ -113,6 +113,14 @@ module "iam_user_tomsmith" {
 ############################
 # OpenID Connect providers #
 ############################
+data "aws_secretsmanager_secret" "circleci" {
+  arn = var.circleci_secret_arn
+}
+
+data "aws_secretsmanager_secret_version" "circleci" {
+  secret_id = data.aws_secretsmanager_secret.circleci.id
+}
+
 locals {
   oidc_providers = {
     # See https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services#adding-the-identity-provider-to-aws
@@ -122,8 +130,8 @@ locals {
     }
     # See https://circleci.com/docs/openid-connect-tokens/#format-of-the-openid-connect-id-token
     circleci = {
-      url = "https://oidc.circleci.com/org/${var.circleci_organisation_id}"
-      aud = [var.circleci_organisation_id]
+      url = sensitive("https://oidc.circleci.com/org/${jsondecode(data.aws_secretsmanager_secret_version.circleci)["organisation_secret_id"]}")
+      aud = sensitive([jsondecode(data.aws_secretsmanager_secret_version.circleci)["organisation_secret_id"]])
     }
   }
 }
