@@ -49,6 +49,7 @@ module "iam" {
 | <a name="module_iam_user_sablumiah"></a> [iam\_user\_sablumiah](#module\_iam\_user\_sablumiah) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_stevewilliams"></a> [iam\_user\_stevewilliams](#module\_iam\_user\_stevewilliams) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_tariq_mahmood"></a> [iam\_user\_tariq\_mahmood](#module\_iam\_user\_tariq\_mahmood) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
+| <a name="module_iam_user_tim_cheung"></a> [iam\_user\_tim\_cheung](#module\_iam\_user\_tim\_cheung) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_tomsmith"></a> [iam\_user\_tomsmith](#module\_iam\_user\_tomsmith) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 
 ## Resources
