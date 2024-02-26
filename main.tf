@@ -154,6 +154,16 @@ module "iam_user_tim_cheung" {
   create_iam_access_key         = false
 }
 
+module "iam_user_folarin_oyenuga" {
+  source  = "terraform-aws-modules/iam/aws//modules/iam-user"
+  version = "4.17.1"
+
+  name                          = "FolarinOyenuga"
+  force_destroy                 = true
+  create_iam_user_login_profile = false
+  create_iam_access_key         = false
+}
+
 ############################
 # OpenID Connect providers #
 ############################
