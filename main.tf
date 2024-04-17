@@ -25,7 +25,8 @@ module "iam_group_admins_with_policies" {
     module.iam_user_davidelliott.iam_user_name,
     module.iam_user_mikebell.iam_user_name,
     module.iam_user_tariq_mahmood.iam_user_name,
-    module.iam_user_tim_cheung.iam_user_name
+    module.iam_user_tim_cheung.iam_user_name,
+    module.iam_user_folarin_oyenuga.iam_user_name,
   ]
 
   custom_group_policy_arns = [
