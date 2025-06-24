@@ -107,6 +107,8 @@ No outputs.
 | <a name="module_iam_user_tariq_mahmood"></a> [iam\_user\_tariq\_mahmood](#module\_iam\_user\_tariq\_mahmood) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_tim_cheung"></a> [iam\_user\_tim\_cheung](#module\_iam\_user\_tim\_cheung) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_tomsmith"></a> [iam\_user\_tomsmith](#module\_iam\_user\_tomsmith) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
+| <a name="module_iam_user_wajid_farid"></a> [iam\_user\_wajid\_farid](#module\_iam\_user\_wajid\_farid) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
+| <a name="module_iam_user_zuri_guardiola"></a> [iam\_user\_zuri\_guardiola](#module\_iam\_user\_zuri\_guardiola) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 
 ## Resources
 
