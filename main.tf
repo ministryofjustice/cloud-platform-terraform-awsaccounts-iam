@@ -176,7 +176,7 @@ module "iam_user_wajid_farid" {
   create_iam_access_key         = false
 }
 
-module "iam_user_zuri-guardiola" {
+module "iam_user_zuri_guardiola" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
   version = "4.17.1"
 
