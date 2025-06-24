@@ -166,6 +166,26 @@ module "iam_user_david_sibley" {
   create_iam_access_key         = false
 }
 
+module "iam_user_wajid_farid" {
+  source  = "terraform-aws-modules/iam/aws//modules/iam-user"
+  version = "4.17.1"
+
+  name                          = "WajidFarid"
+  force_destroy                 = true
+  create_iam_user_login_profile = false
+  create_iam_access_key         = false
+}
+
+module "iam_user_zuri-guardiola" {
+  source  = "terraform-aws-modules/iam/aws//modules/iam-user"
+  version = "4.17.1"
+
+  name                          = "ZuriGuardiola"
+  force_destroy                 = true
+  create_iam_user_login_profile = false
+  create_iam_access_key         = false
+}
+
 ############################
 # OpenID Connect providers #
 ############################
