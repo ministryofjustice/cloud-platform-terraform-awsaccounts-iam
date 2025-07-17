@@ -94,7 +94,9 @@ No outputs.
 |------|--------|---------|
 | <a name="module_iam_account"></a> [iam\_account](#module\_iam\_account) | terraform-aws-modules/iam/aws//modules/iam-account | ~> 4.24 |
 | <a name="module_iam_group_admins_with_policies"></a> [iam\_group\_admins\_with\_policies](#module\_iam\_group\_admins\_with\_policies) | terraform-aws-modules/iam/aws//modules/iam-group-with-policies | ~> 4.24 |
+| <a name="module_iam_user_david_sibley"></a> [iam\_user\_david\_sibley](#module\_iam\_user\_david\_sibley) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_davidelliott"></a> [iam\_user\_davidelliott](#module\_iam\_user\_davidelliott) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
+| <a name="module_iam_user_emma_terry"></a> [iam\_user\_emma\_terry](#module\_iam\_user\_emma\_terry) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_folarin_oyenuga"></a> [iam\_user\_folarin\_oyenuga](#module\_iam\_user\_folarin\_oyenuga) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_jackstockley"></a> [iam\_user\_jackstockley](#module\_iam\_user\_jackstockley) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_kytruong"></a> [iam\_user\_kytruong](#module\_iam\_user\_kytruong) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
@@ -106,7 +108,6 @@ No outputs.
 | <a name="module_iam_user_tomsmith"></a> [iam\_user\_tomsmith](#module\_iam\_user\_tomsmith) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_wajid_farid"></a> [iam\_user\_wajid\_farid](#module\_iam\_user\_wajid\_farid) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_zuri_guardiola"></a> [iam\_user\_zuri\_guardiola](#module\_iam\_user\_zuri\_guardiola) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
-
 
 ## Resources
 
