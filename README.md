@@ -43,7 +43,6 @@ module "iam" {
 | <a name="module_iam_user_emma_terry"></a> [iam\_user\_emma\_terry](#module\_iam\_user\_emma\_terry) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_folarin_oyenuga"></a> [iam\_user\_folarin\_oyenuga](#module\_iam\_user\_folarin\_oyenuga) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_jackstockley"></a> [iam\_user\_jackstockley](#module\_iam\_user\_jackstockley) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
-| <a name="module_iam_user_jaskaransarkaria"></a> [iam\_user\_jaskaransarkaria](#module\_iam\_user\_jaskaransarkaria) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_kytruong"></a> [iam\_user\_kytruong](#module\_iam\_user\_kytruong) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_mikebell"></a> [iam\_user\_mikebell](#module\_iam\_user\_mikebell) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
 | <a name="module_iam_user_sablumiah"></a> [iam\_user\_sablumiah](#module\_iam\_user\_sablumiah) | terraform-aws-modules/iam/aws//modules/iam-user | 4.17.1 |
