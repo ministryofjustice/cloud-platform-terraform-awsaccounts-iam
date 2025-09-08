@@ -1,6 +1,6 @@
 module "iam_account" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-account"
-  version = "~> 4.24"
+  version = "~> 6.2"
 
   account_alias = var.aws_account_name
 
@@ -10,7 +10,7 @@ module "iam_account" {
 # Cloud Platform team members
 module "iam_group_admins_with_policies" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-group-with-policies"
-  version = "~> 4.24"
+  version = "~> 6.2"
 
   name = "admins"
 
@@ -39,7 +39,7 @@ module "iam_group_admins_with_policies" {
 
 module "iam_user_sablumiah" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "SabluMiah"
   force_destroy                 = true
@@ -49,7 +49,7 @@ module "iam_user_sablumiah" {
 
 module "iam_user_jackstockley" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "JackStockley"
   force_destroy                 = true
@@ -59,7 +59,7 @@ module "iam_user_jackstockley" {
 
 module "iam_user_stevewilliams" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "SteveWilliams"
   force_destroy                 = true
@@ -69,7 +69,7 @@ module "iam_user_stevewilliams" {
 
 module "iam_user_tomsmith" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "TomSmith"
   force_destroy                 = true
@@ -79,7 +79,7 @@ module "iam_user_tomsmith" {
 
 module "iam_user_kytruong" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "KyTruong"
   force_destroy                 = true
@@ -89,7 +89,7 @@ module "iam_user_kytruong" {
 
 module "iam_user_davidelliott" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "DavidElliott"
   force_destroy                 = true
@@ -99,7 +99,7 @@ module "iam_user_davidelliott" {
 
 module "iam_user_mikebell" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "MikeBell"
   force_destroy                 = true
@@ -109,7 +109,7 @@ module "iam_user_mikebell" {
 
 module "iam_user_tariq_mahmood" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "TariqMahmood"
   force_destroy                 = true
@@ -119,7 +119,7 @@ module "iam_user_tariq_mahmood" {
 
 module "iam_user_tim_cheung" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "TimCheung"
   force_destroy                 = true
@@ -129,7 +129,7 @@ module "iam_user_tim_cheung" {
 
 module "iam_user_folarin_oyenuga" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "FolarinOyenuga"
   force_destroy                 = true
@@ -139,7 +139,7 @@ module "iam_user_folarin_oyenuga" {
 
 module "iam_user_emma_terry" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "EmmaTerry"
   force_destroy                 = true
@@ -149,7 +149,7 @@ module "iam_user_emma_terry" {
 
 module "iam_user_david_sibley" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "DavidSibley"
   force_destroy                 = true
@@ -159,7 +159,7 @@ module "iam_user_david_sibley" {
 
 module "iam_user_wajid_farid" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "WajidFarid"
   force_destroy                 = true
@@ -169,7 +169,7 @@ module "iam_user_wajid_farid" {
 
 module "iam_user_zuri_guardiola" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
-  version = "4.17.1"
+  version = "6.2.1"
 
   name                          = "ZuriGuardiola"
   force_destroy                 = true
